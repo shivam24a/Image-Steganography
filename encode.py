@@ -26,6 +26,12 @@ def Encode():
 	codeword1=input("Set Encode Password for the Image : ")
 	string_to_encode=input("Enter text to Encode : ")
 	string_to_encode=codeword1+chr(int(codeword2,2))+string_to_encode
+	
+	limit = int(((len(imagedata)*3)/8) - 2)
+	if len(string_to_encode)*8>len(imagedata)*3:
+		print("You can Enter at most",limit,"characters with Password in this Image")
+		return 
+	
 	binary_coversion_string=''
 
 	for element in string_to_encode:
