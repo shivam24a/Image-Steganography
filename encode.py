@@ -12,7 +12,6 @@ def Encode():
 	global image
 	global total_numbers_in_mode
 	image_path=input("Enter Image Address to Encode : ")
-	codeword1=input("Set Encode Password for the Image : ")
 	image=Image.open(image_path)
 	imagedata= list(image.getdata())
 	image.close()
@@ -23,7 +22,8 @@ def Encode():
 	image2.close()
 	total_numbers_in_mode=len(imagedata[0])
 	# element_counter_in_sublist=0
-
+	
+	codeword1=input("Set Encode Password for the Image : ")
 	string_to_encode=input("Enter text to Encode : ")
 	string_to_encode=codeword1+chr(int(codeword2,2))+string_to_encode
 	binary_coversion_string=''
