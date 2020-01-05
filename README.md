@@ -27,6 +27,12 @@ $ python3 app.py
 you have to sepratly download theses above module and install them then
 simply by executing app.py file 
 
+##
+When You will run the program ,in image address you have to give image address like:
+/home/mypc/Desktop/image.png<br>
+if image file is in Image-Steganograpy folder then you can directly give image name as image address eg: image.png
+##
+
 <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/License-MIT-red.svg"
       alt="License: MIT" />
