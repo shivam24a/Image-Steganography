@@ -50,7 +50,7 @@ def Encode():
 		for element_counter_in_sublist in range(3):
 			element=sublist[element_counter_in_sublist]
 			if element%2 !=int(string_to_encode[element_counter],2):
-				element-=1;
+				element=abs(element-1)
 			newlist.append(element)			# newlist[element_counter_in_sublist]=element
 			element_counter+=1;
 		if total_numbers_in_mode==4:
