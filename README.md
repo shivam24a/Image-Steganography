@@ -1,5 +1,5 @@
-# Image-Steganography
-this application hides the text message inside images file which have lossless  compression eg RAW,BMP,PNG etc and also recovers the encoded  messages, through this application ,this app also provide the feature to set particular password for image which will be required while recovering the text back
+#Image-Steganography
+This application hides the text message inside images file which have lossless  compression eg RAW,BMP,PNG etc and also recovers the encoded  messages, through this application ,this app also provide the feature to set particular password for image which will be required while recovering the text back
 
 
  ## Requirements
@@ -24,7 +24,7 @@ $ python3 app.py
 ```
 
 ## In window
-you have to sepratly download theses above module and install them then
+You have to sepratly download theses above module and install them then
 simply by executing app.py file 
 
 ##
