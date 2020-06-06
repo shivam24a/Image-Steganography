@@ -25,7 +25,7 @@ $ python3 app.py
 ```
 
 ## In window
-You have to sepratly download theses above module and install them then
+You have to separately download theses above module and install them then
 simply by executing app.py file 
 
 ##
